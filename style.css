@@ -273,14 +273,7 @@
     padding-left:0px;
 }
 
-.menu{
-    width:80%;
-    justify-content: space-between;
-}
-.menu a{
-    font-size: 12px;
-    color: black;
-}
+
 .last{
     width:10%;
     padding-right:0px;
@@ -317,4 +310,41 @@
 
 
 
+}
+
+
+
+@media (max-width:768px) {
+    
+
+
+    .right p {
+       display: none;
+    }
+    
+    .menu a{
+      display: none;
+    }
+
+
+    
+.right-n{
+    width:50%;
+    padding-left:30px;
+}
+
+.last{
+    width: 50%;
+    padding-right: 30px;
+}
+
+.txt-part {
+    padding-left:20px;
+}
+.txt h1 br{
+    display: none;
+}
+.txt li{
+    font-size: 12px;
+}
 }
